@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/menu_board_remove"
+        android:id="@+id/menuDeleteBoard" />
+
+    <item
+        android:title="@string/menu_board_bearbeiten"
+        android:id="@+id/menuBoardBearbeiten" />
+
+</menu>

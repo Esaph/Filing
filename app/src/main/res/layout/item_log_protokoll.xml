@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/item_log_protokoll_TextViewUsername"
+            android:maxLines="1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="9dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/h3"
+            android:textColor="@color/colorBlack"
+            android:text="Chris Magraf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/item_log_protokoll_TextViewUhrzeit"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="8dp"
+            android:textSize="@dimen/h4"
+            android:textColor="@color/colorBlack"
+            android:text="15:02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/item_log_protokoll_TextViewLog"
+        android:paddingStart="9dp"
+        android:paddingLeft="9dp"
+        android:paddingEnd="9dp"
+        android:paddingRight="9dp"
+        android:paddingBottom="9dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/h4"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Hat ein neues Board erstellt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

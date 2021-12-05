@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:focusableInTouchMode="true"
+    tools:context=".KarteAnzeigen.KarteAnzeige"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@+id/activity_karten_anzeigen_ViewCardColor"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/cardColorLime"
+        android:layout_width="12dp"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/activity_karten_anzeigen_RelativeLayoutTop"
+        android:layout_toRightOf="@+id/activity_karten_anzeigen_ViewCardColor"
+        android:layout_toEndOf="@+id/activity_karten_anzeigen_ViewCardColor"
+        android:paddingRight="16dp"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/activity_karten_anzeigen_TextViewBack"
+            android:drawablePadding="10dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:textSize="@dimen/h4"
+            android:text="@string/back"
+            android:drawableStart="@drawable/ic_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/activity_karten_anzeigen_TextViewChangeColor"
+            android:gravity="center_vertical"
+            android:layout_alignTop="@+id/activity_karten_anzeigen_TextViewBack"
+            android:layout_alignBottom="@+id/activity_karten_anzeigen_TextViewBack"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardColorLime"
+            android:textStyle="bold"
+            android:textSize="@dimen/h5"
+            android:text="@string/changeColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/activity_karten_anzeigen_ViewDivider"
+        android:layout_below="@+id/activity_karten_anzeigen_RelativeLayoutTop"
+        android:background="@drawable/shadow_line_top_to_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+
+    <ScrollView
+        android:layout_below="@+id/activity_karten_anzeigen_ViewDivider"
+        android:layout_above="@+id/activity_karte_anzeigen_linearLayoutActionsIntent"
+        android:layout_toEndOf="@+id/activity_karten_anzeigen_ViewCardColor"
+        android:layout_toRightOf="@+id/activity_karten_anzeigen_ViewCardColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/h1"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingEnd="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_karten_anzeigen_TextViewListName"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="Im Gange"
+                android:textSize="@dimen/h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="@dimen/h1"
+                android:text="@string/aufgabe"
+                android:textSize="@dimen/h4"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <esaph.filing.Utils.ShowMoreEdittext.EsaphShowMoreEditText
+                android:id="@+id/activity_karten_anzeigen_EditTextAufgabe"
+                android:padding="8dp"
+                app:trimLength="100"
+                app:trimMode="1"
+                android:background="@drawable/filing_edittext_selector"
+                android:layout_marginTop="@dimen/h6"
+                android:hint="@string/aufgabeHint"
+                android:textSize="@dimen/h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="@dimen/h1"
+                android:text="@string/beschreibung"
+                android:textSize="@dimen/h4"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <esaph.filing.Utils.ShowMoreEdittext.EsaphShowMoreEditText
+                android:id="@+id/activity_karten_anzeigen_EditTextBeschreibung"
+                app:trimLength="200"
+                app:trimMode="1"
+                android:padding="8dp"
+                android:background="@drawable/filing_edittext_selector"
+                android:layout_marginTop="@dimen/h6"
+                android:gravity="top"
+                android:hint="@string/beschreibungHint"
+                android:text=""
+                android:textSize="@dimen/h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/h1"
+                android:text="@string/kunde"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/h4"
+                android:textStyle="bold" />
+
+            <include layout="@layout/item_contact_search_layout" />
+
+            <TextView
+                android:layout_marginTop="@dimen/h1"
+                android:text="@string/terminDatum"
+                android:textSize="@dimen/h4"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/activity_karte_anzeigen_TextViewFrist"
+                android:layout_marginTop="@dimen/h6"
+                android:padding="8dp"
+                android:text="@string/fristDatumAuswaehlen"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/activity_karte_anzeigen_linearLayoutActionsIntent"
+        android:layout_above="@+id/activity_karten_anzeigen_ButtonFertig"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="@dimen/h5"
+        android:layout_toEndOf="@+id/activity_karten_anzeigen_ViewCardColor"
+        android:layout_toRightOf="@+id/activity_karten_anzeigen_ViewCardColor"
+        android:layout_marginTop="@dimen/h5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/activity_karten_anzeigen_ImageButtonRouteStarten"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="fitCenter"
+            android:padding="14dp"
+            app:srcCompat="@drawable/ic_navigation_start"
+            android:background="@drawable/button_karte_action"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/h3"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <ImageButton
+            android:id="@+id/activity_karten_anzeigen_ImageButtonAnrufen"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:scaleType="fitCenter"
+            android:padding="14dp"
+            app:srcCompat="@drawable/ic_telephone_start"
+            android:background="@drawable/button_karte_action"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/h3"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activity_karten_anzeigen_ButtonFertig"
+        android:textSize="@dimen/h4"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:text="@string/auftragUpdate"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

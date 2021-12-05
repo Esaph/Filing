@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="32dp"
+    android:background="@drawable/rounded_dialog">
+
+
+    <EditText
+        android:id="@+id/layout_dialog_liste_erstellen_EditTextName"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="@string/listennameEingeben"
+        android:padding="9dp"
+        android:background="@drawable/filing_edittext_selector"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/h3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/layout_dialog_liste_erstellen_ButtonFertig"
+        android:layout_marginTop="@dimen/h3"
+        android:textSize="@dimen/h4"
+        android:visibility="visible"
+        android:background="@drawable/button_fertig_enabled"
+        android:text="@string/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

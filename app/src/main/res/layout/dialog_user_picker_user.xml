@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_dialog"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialog_choose_user_TextViewTop"
+        android:ellipsize="end"
+        android:padding="12dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_back"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/h4"
+        android:textColor="@color/colorBlack"
+        android:text="@string/addTeilnehmer"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/dialog_choose_user_EditTextSearch"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginTop="@dimen/h5"
+        android:hint="@string/search"
+        android:textSize="@dimen/h4"
+        android:padding="8dp"
+        android:drawableStart="@drawable/ic_search"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="8dp"
+        android:layout_below="@+id/dialog_choose_user_TextViewTop"
+        android:background="@drawable/edittext_search"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ListView
+        android:id="@+id/dialog_choose_user_ListViewTeilnehmer"
+        android:layout_marginTop="@dimen/h5"
+        android:layout_below="@+id/dialog_choose_user_EditTextSearch"
+        tools:listitem="@layout/item_user"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+    <Button
+        android:id="@+id/dialog_choose_user_ButtonDone"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_marginTop="@dimen/h2"
+        android:layout_below="@+id/dialog_choose_user_ListViewTeilnehmer"
+        android:background="@null"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/h3"
+        android:padding="9dp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/done"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

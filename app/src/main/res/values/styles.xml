@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="android:fontFamily">@font/raleway</item>
+    </style>
+
+    <style name="EsaphAlertDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">#9E9E9E</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:ellipsize">end</item>
+        <item name="fontFamily">@font/raleway</item>
+    </style>
+
+    <style name="ButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="fontFamily">@font/raleway</item>
+    </style>
+
+    <style name="EditTextStyle" parent="android:Widget.Holo.EditText">
+        <item name="fontFamily">@font/raleway</item>
+    </style>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".FilingColorBinding.FilingColorBind">
+
+    <LinearLayout
+        android:id="@+id/activity_filing_color_LinearLayoutTop"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/h2"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:text="@string/colorAssesment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="@dimen/h6"
+            android:textSize="@dimen/h4"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:text="@string/farbzuweisungBeschreibung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/activity_filing_color_bind_ListView"
+        android:dividerHeight="0dp"
+        android:divider="@android:color/transparent"
+        android:layout_below="@+id/activity_filing_color_LinearLayoutTop"
+        android:layout_above="@+id/activity_filing_color_bind_ButtonFertig"
+        tools:listitem="@layout/item_color_binder"
+        android:layout_marginTop="@dimen/h6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/activity_filing_color_bind_ButtonFertig"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/h3"
+        android:textSize="@dimen/h4"
+        android:textStyle="bold"
+        android:text="@string/done"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

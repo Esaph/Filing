@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:id="@+id/relativLayoutTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/activity_list_picker_TextViewBack"
+            android:drawableStart="@drawable/ic_back"
+            android:drawableLeft="@drawable/ic_back"
+            android:drawablePadding="16dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="@dimen/h3"
+            android:textStyle="bold"
+            android:textSize="@dimen/h4"
+            android:padding="9dp"
+            android:text="@string/select_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/activity_list_picker_TextViewListeErstellen"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="@dimen/h5"
+            android:gravity="center"
+            android:text="@string/neu"
+            android:padding="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/activity_list_picker_TextViewBack"
+            android:layout_alignBottom="@+id/activity_list_picker_TextViewBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/activity_list_picker_EditTextSearch"
+            android:inputType="text"
+            android:maxLines="1"
+            android:hint="@string/search"
+            android:textSize="@dimen/h4"
+            android:padding="8dp"
+            android:drawableStart="@drawable/ic_search"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawablePadding="8dp"
+            android:layout_below="@+id/activity_list_picker_TextViewBack"
+            android:background="@drawable/edittext_search"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/activity_list_picker_ListView"
+        android:layout_marginTop="@dimen/h5"
+        android:layout_below="@+id/relativLayoutTop"
+        tools:listitem="@layout/item_list_picker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <esaph.filing.Utils.LoadingState.LoadingStateHandler
+        android:id="@+id/activity_list_picker_LoadingStateHandler"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

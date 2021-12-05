@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Einstellungen.ActivityEinstellungen">
+
+    <LinearLayout
+        android:id="@+id/fragment_einstellungen_LinearLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/activity_einstellungen_TextView_back"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_back"
+            android:drawableLeft="@drawable/ic_back"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="@dimen/h2"
+            android:text="@string/nav_einstellungen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/fragment_einstellungen_TextViewBenutzername"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="@dimen/h1"
+            android:textSize="@dimen/h3"
+            android:textStyle="bold"
+            android:text="Benutzername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="@drawable/background_rounded_divider"
+            android:layout_marginTop="@dimen/h2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <EditText
+            android:id="@+id/fragment_einstellungen_EditTextFilingAdresse"
+            android:maxLines="1"
+            android:inputType="text"
+            android:drawablePadding="9dp"
+            android:drawableStart="@drawable/ic_database"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:background="@drawable/filing_edittext_selector"
+            android:hint="@string/filingServerAdressInput"
+            android:layout_marginTop="@dimen/h2"
+            android:textSize="@dimen/h4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/fragment_einstellungen_ButtonAbmelden"
+            android:textSize="@dimen/h4"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:text="@string/abmelden"
+            android:layout_marginTop="@dimen/h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/fragment_einstellungen_ButtonCheck"
+            android:layout_marginTop="@dimen/h6"
+            android:textSize="@dimen/h4"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:text="@string/speichern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

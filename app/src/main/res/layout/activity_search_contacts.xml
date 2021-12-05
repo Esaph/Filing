@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingStart="16dp"
+    tools:context=".KarteAnzeigen.ContactSearch.SearchContacts">
+
+    <RelativeLayout
+        android:id="@+id/activity_search_contacts_RelativeLayoutTop"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/activity_search_contacts_TextViewBack"
+            android:drawablePadding="10dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:textSize="@dimen/h4"
+            android:text="@string/searchForKunden"
+            android:drawableStart="@drawable/ic_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/activity_search_contacts_AutoCompleteTextView"
+        android:hint="@string/typeKundenName"
+        android:layout_below="@+id/activity_search_contacts_RelativeLayoutTop"
+        android:textSize="@dimen/h4"
+        android:padding="9dp"
+        android:background="@drawable/edittext_search"
+        android:layout_marginTop="@dimen/h6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.AppCompatAutoCompleteTextView>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="h0">64sp</dimen>
+    <dimen name="h1">32sp</dimen>
+    <dimen name="h2">24sp</dimen>
+    <dimen name="h3">18.72sp</dimen>
+    <dimen name="h4">16sp</dimen>
+    <dimen name="h5">13.28sp</dimen>
+    <dimen name="h6">10.72sp</dimen>
+    <string name="app_name">EsaphCommon</string>
+</resources>

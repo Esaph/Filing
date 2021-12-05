@@ -1,0 +1,2 @@
+include ':app', ':esaphcommunicationservices-debug', ':esaphcommon-release', ':esaphcommunicationservices-release'
+rootProject.name='Filing'

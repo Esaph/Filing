@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">Filing</string>
+    <string name="appVersionName">Esaph\nFiling 1.0</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="action_sign_in">Anmelden oder Registrieren</string>
+    <string name="action_sign_in_short">Anmelden</string>
+    <string name="welcome">"Willkommen"</string>
+    <string name="invalid_username">Der Nutzername entspricht nicht den Richtlinien</string>
+    <string name="invalid_password">Passwort muss > 5 Zeichen sein.</string>
+    <string name="login_failed">Anmeldung fehlgeschlagen</string>
+    <string name="txt_anmelden">Anmelden</string>
+    <string name="passwortVergessen">Passwort vergessen?</string>
+    <string name="oder">oder</string>
+    <string name="register">Registrieren</string>
+    <string name="nav_karte_erstellen">Neue Karte</string>
+    <string name="nav_tour">Touren</string>
+    <string name="nav_board">Board</string>
+    <string name="search">Suchen</string>
+    <string name="erledigt">Erledigt</string>
+
+
+    <string name="txt_abgelaufen">Abgelaufen</string>
+    <string name="prefixLauftAb">Läuft ab in</string>
+    <string name="sMinutes">%1$d min</string>
+    <string name="sHoursWithMinutes">%1$d std %2$d min</string>
+    <string name="sHoursSingle">%1$d std</string>
+    <string name="sWeeks">%1$d W</string>
+    <string name="sDays">%1$d T</string>
+    <string name="mitglieder">Mitglieder</string>
+    <string name="back">Zurück</string>
+    <string name="changeColor">Farbe ändern</string>
+    <string name="color_picker_default_title">Farbe auswählen</string>
+    <string name="beschreibung">Beschreibung</string>
+    <string name="karteHinzufuegen">Karte hinzufügen</string>
+    <string name="bearbeiten">Bearbeiten</string>
+
+    <string name="no_card_data">Zurzeit keine Einträge</string>
+    <string name="select_list">Liste auswählen</string>
+    <string name="boardWechseln">Board wechseln</string>
+    <string name="boardsManager">Board Manager</string>
+    <string name="boards">Boards</string>
+    <string name="neu">Neu</string>
+    <string name="neueKarte">Neue Karte anlegen</string>
+    <string name="nochmalVersuchen">Nochmal versuchen</string>
+    <string name="error_loading">Uups, da ist etwas schief gelaufen</string>
+
+
+    <string name="aufgabe">Aufgabe</string>
+    <string name="deleteList">Liste löschen</string>
+    <string name="deleteBoard">Board löschen</string>
+    <string name="addTeilnehmer">Teilnehmer hinzufügen</string>
+    <string name="done">Fertig</string>
+    <string name="sichtbarkeitsmodus">Sichtbarkeit</string>
+
+
+    <string name="board_privacy_public">Öffentlich</string>
+    <string name="board_privacy_public_description">Alle in Ihrem Netzwerk können diesem Board beitreten.</string>
+    <string name="board_privacy_private">Privat</string>
+    <string name="board_privacy_private_description">Dieses Board ist nicht sichtbar, ein Mitglied muss eingeladen werden.</string>
+    <string name="board_aktualisieren">Board aktualisieren</string>
+    <string name="board_erstellen">Board erstellen</string>
+    <string name="board_name_eingeben">Boardname eintragen&#8230;</string>
+
+    <string name="boardAuswaehlen">Bitte wähle ein Board aus</string>
+    <string name="tour_length">%1$s km zum Fahren</string>
+    <string name="tourManagementSystem">Tour Management System</string>
+    <string name="no_tour_data">Derzeit keine Touren zur Verfügung</string>
+    <string name="tourenManagment">Tour Management</string>
+    <string name="createTour">Tour erstellen</string>
+    <string name="kunde">Kunde</string>
+    <string name="dialog_alert_title_NoPermission">Keine Berechtigungen</string>
+    <string name="dialog_alert_title_NoPermission_Text">Um Filing nutzen zu können, müssen Sie die Berechtigungen akzeptieren.</string>
+    <string name="einstellungenOpen">Einstellungen öffnen</string>
+
+    <string name="board">Board</string>
+    <string name="app_ad_text">Make work a better place</string>
+    <string name="start">Start</string>
+    <string name="adressMissing">Achtung Adresse fehlt</string>
+    <string name="phoneMissing">Achtung Telefonnummer fehlt</string>
+    <string name="readMore">Mehr anzeigen</string>
+    <string name="readLess">Weniger anzeigen</string>
+    <string name="searchForKunden">Nach Kunden Suchen</string>
+    <string name="tapForClientChoose">Tippe um Kunden auszuwählen</string>
+    <string name="typeKundenName">Kundenname&#8230;</string>
+    <string name="yes_remove">Ja, entfernen</string>
+    <string name="mitgliedEntfernen">Mitglied entfernen</string>
+    <string name="mitGliedEntfernenFrage">Möchten Sie wirklich %1s entfernen</string>
+    <string name="cancel">Abbrechen</string>
+
+
+    <string name="filingOAuthClientId">986137157187-rc7gs043jr6htrl1t19p918vsfi34up6.apps.googleusercontent.com</string>
+    <string name="listennameEingeben">Wie soll die Liste heißen?</string>
+    <string name="auftraegeAnzahl">%1$s Aufträge</string>
+    <string name="auftragErstellen">Auftrag erstellen</string>
+    <string name="terminDatum">Termin</string>
+    <string name="aufgabeHint">Aufgabe eintragen&#8230;</string>
+    <string name="beschreibungHint">Beschreibung eintragen&#8230;</string>
+    <string name="auftragUpdate">Auftrag aktualisieren</string>
+    <string name="fristDatumAuswaehlen">Tippe um das Datum auszuwählen</string>
+
+    <string name="welcomeToHome">Guten Tag %s</string>
+    <string name="nichtFestgelegt">Nicht festgelegt</string>
+    <string name="filingServerAdressInput">Filing Server Adresse eingeben&#8230;</string>
+    <string name="error_session_discorded_title">Filing Server nicht erreichbar</string>
+
+
+    <string name="error_session_discorded">Es ist ein Fehler unterlaufen.
+        \n\n 1.Überprüfen Sie ihre Internetverbindung
+        \n 2.Überprüfen Sie ob die Filing Serveradresse stimmt
+    und auch erreichbar ist\n 3. Überprüfen Sie den Status des Filing Servers</string>
+    <string name="neueAdresseEintragen">Neue Adresse eintragen&#8230;</string>
+    <string name="letsGo">Los!</string>
+    <string name="tourManagementSystemExplained">
+        TMS Touren-Management-System braucht eine Adresse welche, die letzte auf Ihrer Route ist. In den meisten Fällen reicht die Adresse der Firma bzw. die
+        Adresse von der Sie aus jedes mal Ihre Tour starten.
+        Tragen Sie hier Ihre Startadresse ein, es ist zu empfehlen die Adresse von Ihrem Unternehmen hier einzutragen.</string>
+    <string name="nav_log">Protokoll</string>
+
+    <string name="arbeitsProtokoll">Protokoll</string>
+    <string name="error_karte_update_title">Karte aktualisieren</string>
+    <string name="error_karte_update">Es ist ein Fehler unterlaufen, die Karte konnte nicht aktualisiert werden.</string>
+    <string name="menu_card_remove">Karte löschen</string>
+    <string name="error_karte_delete">Die Karte konnte leider nicht gelöscht werden.</string>
+    <string name="error_karte_delete_title">Karte löschen</string>
+    <string name="menu_list_remove">Liste löschen</string>
+    <string name="error_list_delete_title">Liste löschen</string>
+    <string name="error_list_delete">Liste konnte nicht gelöscht werden.</string>
+    <string name="error_board_delete">Das Board konnte nicht gelöscht werden</string>
+    <string name="error_board_delete_title">Board löschen</string>
+    <string name="menu_board_remove">Board löschen</string>
+    <string name="menu_board_bearbeiten">Board bearbeiten</string>
+    <string name="colorAssesment">Farbenzuweisung</string>
+    <string name="farbzuweisungBeschreibung">Mit Farben lässt sich vieles besser erklären. Geben Sie den Farben eine Bedeutung.</string>
+    <string name="farbeBedeutung">Bedeutung&#8230;</string>
+    <string name="error_transfer_card_title">Karte verschieben</string>
+    <string name="error_transfer_card">Karte konnte nicht verschoben werden</string>
+    <string name="warning_same_list_selected">Das Element befindet sich bereits in der Liste</string>
+    <string name="createNewList">Neue Liste erstellen</string>
+    <string name="nav_einstellungen">Einstellungen</string>
+    <string name="listeAuswahlen">Liste auswählen</string>
+    <string name="liste">Liste</string>
+    <string name="pickTime">Uhrzeit auswählen</string>
+    <string name="zeitReisen">Leider ist Zeitreisen nicht möglich, wählen Sie ein Datum in der Zukunft aus.</string>
+    <string name="addresseAuswaehlen">Adresse</string>
+    <string name="dialog_delete_board_liste">Liste wirklich löschen?</string>
+    <string name="bestaetigen">Bestätigen</string>
+    <string name="abbrechen">Abbrechen</string>
+    <string name="letztesZiel">Letztes Ziel</string>
+    <string name="haftungsAusschlussText">Ich akzeptiere den Haftungsausschluss</string>
+    <string name="haftungsAusschluss">Haftungsausschluss</string>
+    <string name="akzeptieren">Akzeptieren</string>
+    <string name="label">Label</string>
+    <string name="txt_katagorieSortieren">Katagorie auswählen</string>
+    <string name="ic_board_nicht_ausgewahlt">Sie habe noch kein Board ausgewählt.</string>
+    <string name="farbPaletteKonfigurieren">Farbpalette konfigurieren</string>
+    <string name="loadingTitle">Einen Moment</string>
+    <string name="abmelden">Abmelden</string>
+    <string name="speichern">Speichern</string>
+    <string name="error_list_creating">Die Liste konnte nicht erstellt werden.</string>
+    <string name="error_list_creating_title">Fehler Liste erstellen</string>
+    <string name="error_karte_erstellen">Karte konnte nicht erstellt werden.</string>
+    <string name="error_karte_erstellen_title">Fehler Karte erstellen</string>
+    <string name="error_board_erstellen_title">Board erstellen</string>
+    <string name="error_board_erstellen">Board konnte nicht erstellt werden.</string>
+
+    <string name="error_board_bearbeiten_title">Board aktualisieren</string>
+    <string name="error_board_bearbeiten">Board konnte nicht aktualisiert werden.</string>
+    <string name="zuletztBenutzteAdressen">Zuletzt benutze Adressen</string>
+    <string name="toast_need_adress">Sie müssen eine Adresse ausgewählt haben.</string>
+    <string name="menu_card_bearbeiten">Karte bearbeiten</string>
+    <string name="menu_archivieren">Archivieren</string>
+    <string name="error_archivieren_title">Archivieren fehlgeschlagen</string>
+    <string name="error_archivieren">Karte konnte nicht archiviert werden.</string>
+    <string name="archivieren">Archivieren</string>
+
+</resources>

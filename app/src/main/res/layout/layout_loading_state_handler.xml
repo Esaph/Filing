@@ -1,0 +1,66 @@
+<RelativeLayout
+    android:id="@+id/fragment_fragment_karten_anzeigen_LinearLayoutNoData"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/layout_loading_state_handler_LinearLayoutTop"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/layout_loading_state_handler_ImageViewIcon"
+            android:animateLayoutChanges="true"
+            app:srcCompat="@drawable/ic_break"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/layout_loading_state_handler_TextViewText"
+            android:animateLayoutChanges="true"
+            android:layout_marginTop="@dimen/h3"
+            android:text="@string/no_card_data"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:textSize="@dimen/h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/layout_loading_state_handler_TextViewTryAgain"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:animateLayoutChanges="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/h1"
+        android:padding="9dp"
+        android:background="@drawable/button_passive"
+        android:layout_below="@+id/layout_loading_state_handler_LinearLayoutTop"
+        android:text="@string/nochmalVersuchen"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="@dimen/h5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/layout_loading_state_handler_AVLoadingIndicatorView"
+        android:animateLayoutChanges="true"
+        android:layout_centerInParent="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:indicatorName="LineScalePartyIndicator"
+        app:indicatorColor="@color/colorAccent" />
+
+</RelativeLayout>

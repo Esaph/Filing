@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#131313</color>
+    <color name="colorPrimaryLight">#F3F3F3</color>
+    <color name="colorPrimaryDark">#9E9E9E</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="colorBlack">#0F0F0F</color>
+
+    <color name="colorActivityTopBackground">#ffffff</color>
+
+
+
+    <color name="colorPrimaryKarteAnzeigen">#FF9800</color>
+    <color name="colorPrimaryLightKarteAnzeigen">#F7F2EF</color>
+    <color name="colorPrimaryDarkKarteAnzeigen">#B1813B</color>
+    <color name="colorPrimaryDarkKarteAccent">#FF9800</color>
+
+
+
+
+    <color name="cardColorBlueGreen">#F44336</color>
+    <color name="cardColorBlue">#9C27B0</color>
+    <color name="cardColorBlueDark">#3F51B5</color>
+    <color name="cardColorPurple">#03A9F4</color>
+    <color name="cardColorDarkGreen">#009688</color>
+    <color name="cardColorRed">#8BC34A</color>
+    <color name="cardColorOrange">#FFEB3B</color>
+    <color name="cardColorLime">#FF9800</color>
+    <color name="cardColorGrey">#969696</color>
+    <color name="cardColorBlack">#000000</color>
+    <color name="cardColorPink">#FF4C88</color>
+
+</resources>

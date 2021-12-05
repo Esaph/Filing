@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CardsShowingFromList.FragmentShowListContent">
+
+    <Spinner
+        android:id="@+id/fragment_show_list_content_Spinner_SortMethod"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/fragment_show_list_content_ListView_Main"
+        android:layout_below="@+id/fragment_show_list_content_Spinner_SortMethod"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        tools:listitem="@layout/item_today_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <esaph.filing.Utils.LoadingState.LoadingStateHandler
+        android:id="@+id/fragment_show_list_content_LoadingStateHandler"
+        android:layout_marginTop="@dimen/h0"
+        android:layout_below="@+id/fragment_show_list_content_Spinner_SortMethod"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuTour"
+        android:icon="@drawable/navigation_bar_selector_tour"
+        android:title="@string/nav_tour" />
+
+    <item
+        android:id="@+id/menuBoard"
+        android:icon="@drawable/navigation_bar_selector_board"
+        android:title="@string/nav_board" />
+
+    <item
+        android:id="@+id/menuKarteErstellen"
+        android:icon="@drawable/ic_plus"
+        android:title="@string/nav_karte_erstellen" />
+    
+    <item
+        android:id="@+id/menuLog"
+        android:icon="@drawable/navigation_bar_selector_log"
+        android:title="@string/nav_log" />
+
+</menu>

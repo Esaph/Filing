@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Account.LoginActivity">
+
+    <LinearLayout
+        android:layout_above="@+id/activity_login_linearLayout_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:text="@string/app_name"
+            android:textSize="@dimen/h0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="@dimen/h5"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/app_ad_text"
+            android:textSize="@dimen/h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/activity_login_linearLayout_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/activity_login_EditTextFilingServerAddress"
+            android:maxLines="1"
+            android:inputType="text"
+            android:drawablePadding="9dp"
+            android:drawableStart="@drawable/ic_database"
+            android:layout_marginTop="@dimen/h1"
+            android:padding="9dp"
+            android:textSize="@dimen/h4"
+            android:background="@drawable/filing_edittext_selector"
+            android:hint="@string/filingServerAdressInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.gms.common.SignInButton
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/h1"
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/activity_login_CheckBoxHaftungsausschluss"
+            android:layout_marginTop="@dimen/h5"
+            android:text="@string/haftungsAusschlussText"
+            android:textSize="@dimen/h5"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/activity_login_TextViewHaftungsausschluss"
+            android:layout_marginTop="@dimen/h6"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:textSize="@dimen/h5"
+            android:text="@string/haftungsAusschluss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/activity_login_TextViewVersion"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/h5"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:text="@string/appVersionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

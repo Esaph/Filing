@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_marginTop="@dimen/h1"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/h2"
+        android:textAlignment="center"
+        android:text="@string/tourManagementSystem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginTop="@dimen/h3"
+        app:srcCompat="@drawable/ic_destination"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/h1"
+        android:textSize="@dimen/h5"
+        android:textColor="@color/colorBlack"
+        android:text="@string/tourManagementSystemExplained"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/layout_tms_setup_dialog_spinner_adresses"
+        android:layout_marginTop="@dimen/h3"
+        tools:listitem="@layout/item_last_adresses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/h4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/layout_tms_setup_dialog_EdittextDestinationAdress"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:hint="@string/neueAdresseEintragen"
+            android:padding="9dp"
+            android:textSize="@dimen/h4"
+            android:background="@drawable/filing_edittext_selector"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageButton
+            android:id="@+id/layout_tms_setup_dialog_ImageButtonAddAdress"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_add"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/layout_tms_setup_dialog_EdittextDestinationAdress"
+            android:layout_toEndOf="@+id/layout_tms_setup_dialog_EdittextDestinationAdress"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:background="@drawable/button_grey"
+            android:textSize="@dimen/h4"
+            android:padding="8dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="@string/letsGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/layout_tms_setup_dialog_ButtonLos"
+        android:layout_marginTop="@dimen/h1"
+        android:textStyle="bold"
+        android:background="@drawable/button_imready"
+        android:textSize="@dimen/h4"
+        android:padding="8dp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="@string/letsGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

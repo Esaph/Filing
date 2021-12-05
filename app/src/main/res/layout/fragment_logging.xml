@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_logging_rootview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:id="@+id/relativLayoutTop"
+        android:layout_marginBottom="@dimen/h5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/fragment_loggingRelativLayoutTop"
+            android:layout_marginBottom="@dimen/h4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_einstellungen_TextView_back"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/fragment_logging_ImageViewOptions"
+                android:layout_toStartOf="@+id/fragment_logging_ImageViewOptions"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="@dimen/h2"
+                android:text="@string/arbeitsProtokoll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/fragment_logging_ImageViewOptions"
+                android:padding="12dp"
+                app:srcCompat="@drawable/ic_settings"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/fragment_logging_EditTextSearch"
+            android:inputType="text"
+            android:maxLines="1"
+            android:hint="@string/search"
+            android:textSize="@dimen/h4"
+            android:padding="8dp"
+            android:drawableStart="@drawable/ic_search"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawablePadding="8dp"
+            android:layout_below="@+id/fragment_loggingRelativLayoutTop"
+            android:background="@drawable/edittext_search"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/fragment_logging_ListViewLog"
+        android:choiceMode="multipleChoice"
+        tools:listitem="@layout/item_log_protokoll"
+        android:divider="#EBEBEB"
+        android:dividerHeight="2dp"
+        android:layout_below="@+id/relativLayoutTop"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <esaph.filing.Utils.LoadingState.LoadingStateHandler
+        android:id="@+id/fragment_logging_loadingStateHandler"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

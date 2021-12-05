@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="start|center"
+    android:layout_height="60dp">
+
+    <View
+        android:id="@+id/item_color_binder_dividerView"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#FF5722"
+        android:layout_width="8dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/item_color_binder_TextViewName"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint="@string/farbeBedeutung"
+        android:layout_margin="9dp"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/filing_edittext_selector"
+        android:padding="9dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/h4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
