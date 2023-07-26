@@ -58,7 +58,7 @@ public class Filing extends EsaphActivity implements DeleteListe.DeleteListeList
         setContentView(R.layout.activity_filing);
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getResources().getString(R.string.filingOAuthClientId))
+                .requestIdToken(getResources().getString(R.string.filingOAuthClientIdReleaseAndDebug))
                 .requestEmail()
                 .build();
 

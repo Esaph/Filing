@@ -83,7 +83,7 @@ public class ActivityEinstellungen extends EsaphActivity
             public void onClick(View v)
             {
                 GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                        .requestIdToken(getResources().getString(R.string.filingOAuthClientId))
+                        .requestIdToken(getResources().getString(R.string.filingOAuthClientIdReleaseAndDebug))
                         .requestEmail()
                         .build();
 

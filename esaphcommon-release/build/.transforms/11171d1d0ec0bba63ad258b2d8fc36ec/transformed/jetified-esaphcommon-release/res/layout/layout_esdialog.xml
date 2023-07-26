@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_dialog"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:layout_marginRight="@dimen/h3"
+    android:layout_marginEnd="@dimen/h3"
+    android:layout_marginStart="@dimen/h3"
+    android:layout_marginLeft="@dimen/h3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/layout_esdialog_TextViewTitle"
+        android:textStyle="bold"
+        android:text="Dialog title"
+        android:textSize="@dimen/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/layout_esdialog_TextViewDetails"
+        android:layout_marginTop="@dimen/h3"
+        android:text="Dialog text if added"
+        android:textSize="@dimen/h3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/h1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/layout_esdialog_button_positive"
+            android:textSize="@dimen/h5"
+            android:layout_marginRight="@dimen/h6"
+            android:layout_marginEnd="@dimen/h6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/layout_esdialog_button_negative"
+            android:textSize="@dimen/h5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -89,7 +89,7 @@
     <string name="cancel">Abbrechen</string>
 
 
-    <string name="filingOAuthClientId">986137157187-rc7gs043jr6htrl1t19p918vsfi34up6.apps.googleusercontent.com</string>
+    <string name="filingOAuthClientIdReleaseAndDebug">986137157187–1gr58o9h07dirue0lmuoungovrgevdpi.apps.googleusercontent.com</string>
     <string name="listennameEingeben">Wie soll die Liste heißen?</string>
     <string name="auftraegeAnzahl">%1$s Aufträge</string>
     <string name="auftragErstellen">Auftrag erstellen</string>

@@ -5,13 +5,7 @@ import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
 
-import androidx.annotation.NonNull;
-
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.iid.FirebaseInstanceId;
-import com.google.firebase.iid.InstanceIdResult;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -25,8 +19,6 @@ import esaph.elib.esaphcommunicationservices.Session;
 import esaph.filing.Account.User;
 import esaph.filing.R;
 import esaph.filing.Utils.SocketConfig;
-
-import static androidx.constraintlayout.widget.Constraints.TAG;
 
 public abstract class LoginWorkerSession extends EsaphCommunicationClient
 {
@@ -44,7 +36,7 @@ public abstract class LoginWorkerSession extends EsaphCommunicationClient
     public JSONObject bindData() throws JSONException
     {
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("CLID", contextWeakReference.get().getResources().getString(R.string.filingOAuthClientId));
+        jsonObject.put("CLID", contextWeakReference.get().getResources().getString(R.string.filingOAuthClientIdReleaseAndDebug));
         jsonObject.put("idTS", googleSignInAccount.getIdToken());
         return jsonObject;
     }

@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "986137157187-grav4bl9clmmv1p97oiq8f9e4kd4hqd3.apps.googleusercontent.com",
+          "client_id": "986137157187-1gr58o9h07dirue0lmuoungovrgevdpi.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "esaph.filing",
-            "certificate_hash": "d0c779c0d626b53bb49be21695db845efcef6cae"
+            "certificate_hash": "8140cc638204e812a2e7a558f8aa7a7891d1f309"
           }
         },
         {
@@ -29,7 +29,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAkHwk0f4IhHrqKfTsJwlsuIioO9v8ctH8"
+          "current_key": "AIzaSyBPVHTCE670xPyGIIKi4fQdP-GqcOs61T0"
         }
       ],
       "services": {
