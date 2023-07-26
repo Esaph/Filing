@@ -1,4 +1,9 @@
 package esaph.filing;
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 // TODO: 08.11.2019 filling dataaccess card
 
 import androidx.annotation.NonNull;

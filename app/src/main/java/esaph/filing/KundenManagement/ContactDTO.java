@@ -1,5 +1,10 @@
 package esaph.filing.KundenManagement;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.text.TextUtils;
 
 import java.io.Serializable;

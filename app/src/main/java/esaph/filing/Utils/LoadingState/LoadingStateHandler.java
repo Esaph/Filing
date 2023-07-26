@@ -1,5 +1,10 @@
 package esaph.filing.Utils.LoadingState;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.util.AttributeSet;

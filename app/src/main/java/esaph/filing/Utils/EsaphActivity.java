@@ -1,5 +1,10 @@
 package esaph.filing.Utils;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.Context;
 import android.graphics.Rect;
 import android.view.MotionEvent;

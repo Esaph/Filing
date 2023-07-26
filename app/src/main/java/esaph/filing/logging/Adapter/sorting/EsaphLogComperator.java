@@ -1,4 +1,9 @@
 package esaph.filing.logging.Adapter.sorting;
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import java.util.Comparator;
 
 import esaph.filing.Board.Model.Board;

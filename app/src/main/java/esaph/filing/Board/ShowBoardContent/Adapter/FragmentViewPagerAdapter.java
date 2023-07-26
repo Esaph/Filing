@@ -1,5 +1,10 @@
 package esaph.filing.Board.ShowBoardContent.Adapter;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.util.SparseArray;
 import android.view.ViewGroup;
 

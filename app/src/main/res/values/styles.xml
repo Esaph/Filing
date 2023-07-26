@@ -1,3 +1,8 @@
+<!--
+  ~ Copyright (c) 2023.
+  ~  Julian Auguscik
+  -->
+
 <resources>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">

@@ -1,5 +1,10 @@
 package esaph.filing.CardsShowingFromList.Adapter;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.view.LayoutInflater;

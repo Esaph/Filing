@@ -1,5 +1,10 @@
 package esaph.filing.CardsShowingFromList.Sorting;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import java.util.Comparator;
 
 import esaph.filing.CardsShowingFromList.Model.Auftrag.Auftrag;

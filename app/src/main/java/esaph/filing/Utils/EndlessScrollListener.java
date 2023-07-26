@@ -1,5 +1,10 @@
 package esaph.filing.Utils;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.widget.AbsListView;
 
 public abstract class EndlessScrollListener implements AbsListView.OnScrollListener

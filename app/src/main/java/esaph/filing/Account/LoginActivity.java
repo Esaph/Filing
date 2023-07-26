@@ -1,5 +1,10 @@
 package esaph.filing.Account;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;

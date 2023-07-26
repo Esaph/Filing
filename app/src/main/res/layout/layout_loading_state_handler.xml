@@ -1,3 +1,8 @@
+<!--
+  ~ Copyright (c) 2023.
+  ~  Julian Auguscik
+  -->
+
 <RelativeLayout
     android:id="@+id/fragment_fragment_karten_anzeigen_LinearLayoutNoData"
     android:layout_width="match_parent"

@@ -1,5 +1,10 @@
 package esaph.filing.Board;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;

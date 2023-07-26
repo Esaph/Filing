@@ -1,5 +1,10 @@
 package esaph.filing.TourenPlaner.TMSDestinationAdress;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;

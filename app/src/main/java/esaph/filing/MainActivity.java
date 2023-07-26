@@ -1,5 +1,10 @@
 package esaph.filing;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;

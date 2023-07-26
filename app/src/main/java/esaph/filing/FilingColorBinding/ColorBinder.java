@@ -1,5 +1,10 @@
 package esaph.filing.FilingColorBinding;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.os.ParcelUuid;
 
 import java.io.Serializable;

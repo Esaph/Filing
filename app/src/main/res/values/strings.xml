@@ -1,3 +1,8 @@
+<!--
+  ~ Copyright (c) 2023.
+  ~  Julian Auguscik
+  -->
+
 <resources>
     <string name="app_name">Filing</string>
     <string name="appVersionName">Esaph\nFiling 1.0</string>

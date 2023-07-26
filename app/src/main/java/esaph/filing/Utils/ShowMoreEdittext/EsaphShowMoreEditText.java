@@ -1,5 +1,10 @@
 package esaph.filing.Utils.ShowMoreEdittext;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;

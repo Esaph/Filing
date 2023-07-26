@@ -1,5 +1,10 @@
 package esaph.filing.TourenPlaner;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;

@@ -1,5 +1,10 @@
 package esaph.filing.KundenManagement;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import java.io.Serializable;
 
 public class DataDTO implements Serializable

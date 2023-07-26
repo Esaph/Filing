@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023.
+  ~  Julian Auguscik
+  -->
+
 <resources>
     <color name="colorPrimary">#131313</color>
     <color name="colorPrimaryLight">#F3F3F3</color>

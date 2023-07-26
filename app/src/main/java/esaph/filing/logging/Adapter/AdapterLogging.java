@@ -1,5 +1,10 @@
 package esaph.filing.logging.Adapter;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.Context;
 import android.text.Spannable;
 import android.text.SpannableString;

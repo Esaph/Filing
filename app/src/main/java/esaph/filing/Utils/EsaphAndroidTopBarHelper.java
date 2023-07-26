@@ -1,5 +1,10 @@
 package esaph.filing.Utils;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.app.ActionBar;
 import android.app.Activity;
 import android.graphics.Color;

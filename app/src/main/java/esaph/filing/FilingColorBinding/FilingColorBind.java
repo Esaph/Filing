@@ -1,5 +1,10 @@
 package esaph.filing.FilingColorBinding;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;

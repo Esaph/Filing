@@ -1,5 +1,10 @@
 package esaph.filing.CardsShowingFromList.Model.Auftrag;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import java.io.Serializable;
 
 import esaph.elib.esaphcommunicationservices.PipeData;

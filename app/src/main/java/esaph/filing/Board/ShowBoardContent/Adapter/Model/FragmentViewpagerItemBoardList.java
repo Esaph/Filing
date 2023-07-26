@@ -1,5 +1,10 @@
 package esaph.filing.Board.ShowBoardContent.Adapter.Model;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;

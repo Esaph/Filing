@@ -1,3 +1,8 @@
+<!--
+  ~ Copyright (c) 2023.
+  ~  Julian Auguscik
+  -->
+
 <vector android:height="112dp" android:viewportHeight="512.002"
     android:viewportWidth="512" android:width="111.999565dp" xmlns:android="http://schemas.android.com/apk/res/android">
     <path android:fillColor="#FF000000" android:pathData="m252.352,246.633c33.883,0 63.223,-12.152 87.195,-36.129 23.973,-23.973 36.125,-53.305 36.125,-87.191 0,-33.875 -12.152,-63.211 -36.129,-87.191 -23.977,-23.969 -53.313,-36.121 -87.191,-36.121 -33.887,0 -63.219,12.152 -87.191,36.125s-36.129,53.309 -36.129,87.188c0,33.887 12.156,63.223 36.133,87.195 23.977,23.969 53.313,36.125 87.188,36.125zM252.352,246.633"/>

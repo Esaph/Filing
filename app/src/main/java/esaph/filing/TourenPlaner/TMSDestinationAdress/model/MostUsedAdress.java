@@ -1,5 +1,10 @@
 package esaph.filing.TourenPlaner.TMSDestinationAdress.model;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import org.dizitart.no2.objects.Id;
 
 public class MostUsedAdress

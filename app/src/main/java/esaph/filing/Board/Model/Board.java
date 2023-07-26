@@ -1,5 +1,10 @@
 package esaph.filing.Board.Model;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import androidx.annotation.Nullable;
 
 import java.io.Serializable;

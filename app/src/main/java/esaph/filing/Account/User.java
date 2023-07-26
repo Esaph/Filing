@@ -1,5 +1,10 @@
 package esaph.filing.Account;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import androidx.annotation.Nullable;
 
 import java.io.Serializable;

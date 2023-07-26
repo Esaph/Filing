@@ -1,5 +1,10 @@
 package esaph.filing.Board.Adapter;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

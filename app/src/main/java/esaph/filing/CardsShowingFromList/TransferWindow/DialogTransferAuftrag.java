@@ -1,5 +1,10 @@
 package esaph.filing.CardsShowingFromList.TransferWindow;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.app.AlertDialog;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;

@@ -1,5 +1,10 @@
 package esaph.filing.KundenManagement;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.ContentResolver;
 import android.content.Context;
 import android.database.Cursor;

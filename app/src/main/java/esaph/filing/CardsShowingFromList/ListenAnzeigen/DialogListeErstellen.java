@@ -1,5 +1,10 @@
 package esaph.filing.CardsShowingFromList.ListenAnzeigen;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;

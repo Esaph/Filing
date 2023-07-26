@@ -1,5 +1,10 @@
 package esaph.filing.Board.BoardManager;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import esaph.filing.Board.Model.BoardPolicy;
 
 public class BoardPolicyItem

@@ -1,5 +1,10 @@
 package esaph.filing.KarteAnzeigen;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.Manifest;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;

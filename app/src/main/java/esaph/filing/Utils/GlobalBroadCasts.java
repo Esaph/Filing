@@ -1,5 +1,10 @@
 package esaph.filing.Utils;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.Context;
 import android.content.Intent;
 import esaph.filing.CardsShowingFromList.Model.Auftrag.Auftrag;

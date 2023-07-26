@@ -1,5 +1,10 @@
 package esaph.filing.Board.BoardsAnzeigen;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import androidx.annotation.Nullable;
 
 import android.app.AlertDialog;

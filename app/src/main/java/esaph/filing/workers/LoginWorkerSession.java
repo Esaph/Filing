@@ -1,5 +1,10 @@
 package esaph.filing.workers;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.text.TextUtils;

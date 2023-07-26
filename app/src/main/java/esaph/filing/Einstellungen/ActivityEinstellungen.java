@@ -1,5 +1,10 @@
 package esaph.filing.Einstellungen;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;

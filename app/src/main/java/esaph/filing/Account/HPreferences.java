@@ -1,5 +1,10 @@
 package esaph.filing.Account;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;

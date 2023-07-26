@@ -1,5 +1,10 @@
 package esaph.filing.FilingColorBinding.Adapter;
 
+/*
+ * Copyright (c) 2023.
+ *  Julian Auguscik
+ */
+
 import android.content.Context;
 import android.text.Editable;
 import android.text.TextWatcher;
