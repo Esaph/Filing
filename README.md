@@ -5,7 +5,7 @@
 
 Filing ist eine Unternehmensverwaltungssoftware, welche ebenfalls effiziente Routenplanung unterstützt.
 
-
+<img src="(https://github.com/Esaph/Filing/assets/61155778/5751eb28-b3ed-47b5-a43b-125bef9d020b" width="48">
 
 ![unnamed2](https://github.com/Esaph/Filing/assets/61155778/5751eb28-b3ed-47b5-a43b-125bef9d020b)
 ![unnamed](https://github.com/Esaph/Filing/assets/61155778/62acbf83-3096-4e5c-b453-f4e00ee85c99)
